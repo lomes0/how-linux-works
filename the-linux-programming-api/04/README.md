@@ -1,0 +1,6 @@
+| Flag                                                         | Desc                                                         | SUS  |
+| ------------------------------------------------------------ | ------------------------------------------------------------ | ---- |
+| O_RDONLY<br/>O_WRONLY<br/>O_RDWR                             | Open for reading only<br/>Open for writing only<br/>Open for reading and writing |      |
+| O_CLOEXEC<br/>O_CREAT<br/>O_DIRECT<br/>O_DIRECTORY<br/>O_EXCL<br/>O_LARGEFILE<br/>O_NOATIME<br/>O_NOCTTY<br/>O_NOFOLLOW<br/>O_TRUNC | Set the close-on-exec flag (since Linux 2.6.23)<br/>Create file if it doesn’t already exist<br/>File I/O bypasses buffer cache<br/>Fail if pathname is not a directory<br/>With O_CREAT : create file exclusively<br/>Used on 32-bit systems to open large files<br/>Don’t update file last access time on read() (since Linux 2.6.8)<br/>Don’t let pathname become the controlling terminal<br/>Don’t dereference symbolic links<br/>Truncate existing file to zero length |      |
+| O_APPEND<br/>O_ASYNC<br/>O_DSYNC<br/>O_NONBLOCK<br/>O_SYNC   | Writes are always appended to end of file<br/>Generate a signal when I/O is possible<br/>Provide synchronized I/O data integrity (since Linux 2.6.33)<br/>Open in nonblocking mode<br/>Make file writes synchronous |      |
+

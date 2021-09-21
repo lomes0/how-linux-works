@@ -1,0 +1,3 @@
+Can you sport the bug?
+
+Running gcc with -O will cause reording of some set instructions...
